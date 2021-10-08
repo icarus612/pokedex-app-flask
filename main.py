@@ -45,3 +45,4 @@ def get_pokemon():
 port = int(os.environ.get('PORT', 5000)) 
 if __name__ == '__main__':
 	app.run(threaded=True, port=port, debug=True)
+
